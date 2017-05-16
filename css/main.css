@@ -12,6 +12,10 @@
 	max-width: 100%;
 }
 
+.container {
+	margin: 16px;
+}
+
 .page-header {
 	padding-bottom: 8px;
 	border-bottom: 4px solid #7d97ad;
