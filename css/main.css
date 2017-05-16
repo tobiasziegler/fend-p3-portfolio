@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Apply this class to prevent images going beyond their containers. */
+.img-fluid {
+	max-width: 100%;
+}
+
 /**
  * Grid layout
  *
