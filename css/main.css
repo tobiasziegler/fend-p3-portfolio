@@ -12,6 +12,12 @@
 	max-width: 100%;
 }
 
+.page-header {
+	padding-bottom: 8px;
+	border-bottom: 4px solid #7d97ad;
+	margin-bottom: 16px;
+}
+
 .header-text {
 	text-align: right;
 	text-transform: uppercase;
@@ -20,6 +26,12 @@
 .header-title {
 	font-weight: 300;
 	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.header-subtitle {
+	margin-top: 8px;
 }
 
 .portfolio-header {
@@ -33,6 +45,7 @@
 .portfolio-item-title {
 	font-size: 2em;
 	text-transform: uppercase;
+	margin: 8px 0;
 }
 
 .portfolio-item-link {
