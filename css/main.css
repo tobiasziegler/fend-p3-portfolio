@@ -4,3 +4,20 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+/**
+ * Grid layout
+ *
+ * Approach to grid layout is based on "Better, Simpler Grid Systems"
+ * by Philip Walton at Solved by Flexbox:
+ * https://philipwalton.github.io/solved-by-flexbox/demos/grids/
+ */
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-cell {
+	flex: 1;
+}
