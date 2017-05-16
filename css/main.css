@@ -3,11 +3,42 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+	color: #2d3c49;
+	font-family: 'Muli', sans-serif;
 }
 
 /* Apply this class to prevent images going beyond their containers. */
 .img-fluid {
 	max-width: 100%;
+}
+
+.header-text {
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.header-title {
+	font-weight: 300;
+	font-size: 3em;
+}
+
+.portfolio-header {
+	color: #7d97ad;
+}
+
+.portfolio-item {
+	text-align: center;
+}
+
+.portfolio-item-title {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.portfolio-item-link {
+	font-weight: 300;
+	font-size: 0.8em;
+	text-decoration: none;
 }
 
 /**
