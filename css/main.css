@@ -77,9 +77,81 @@
 	flex: 1;
 }
 
+.grid-gutters {
+    margin: -1em 0 0 -1em;
+}
+
+.grid-gutters > .grid-cell {
+    padding: 1em 0 0 1em;
+}
+
+.grid-fit > .grid-cell {
+    flex: 1;
+}
+
+.grid-full > .grid-cell {
+    flex: 0 0 100%;
+}
+
+.grid-1of2 > .grid-cell {
+    flex: 0 0 50%;
+}
+
+.grid-1of3 > .grid-cell {
+    flex: 0 0 33.3333%;
+}
+
+.grid-1of4 > .grid-cell {
+    flex: 0 0 25%;
+}
+
 /**
- * Media queries
+ * Media queries, including responsive grid layout classes
  */
+
+@media screen and (min-width: 36em) {
+    .grid-small-fit > .grid-cell {
+        flex: 1;
+    }
+
+    .grid-small-full > .grid-cell {
+        flex: 0 0 100%;
+    }
+
+    .grid-small-1of2 > .grid-cell {
+        flex: 0 0 50%;
+    }
+
+    .grid-small-1of3 > .grid-cell {
+        flex: 0 0 33.3333%;
+    }
+
+    .grid-small-1of4 > .grid-cell {
+        flex: 0 0 25%;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .grid-large-fit > .grid-cell {
+        flex: 1;
+    }
+
+    .grid-large-full > .grid-cell {
+        flex: 0 0 100%;
+    }
+
+    .grid-large-1of2 > .grid-cell {
+        flex: 0 0 50%;
+    }
+
+    .grid-large-1of3 > .grid-cell {
+        flex: 0 0 33.3333%;
+    }
+
+    .grid-large-1of4 > .grid-cell {
+        flex: 0 0 25%;
+    }
+}
 
 @media screen and (min-width: 1232px) {
 	.container {
