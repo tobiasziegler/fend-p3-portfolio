@@ -23,20 +23,23 @@
 	margin-bottom: 16px;
 }
 
+.header-logo {
+    max-width: 10em;
+}
+
 .header-text {
-	text-align: right;
 	text-transform: uppercase;
 }
 
 .header-title {
 	font-weight: 200;
-	font-size: 3em;
+	font-size: 2em;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
 .header-subtitle {
-    font-size: 1.25em;
+    font-size: 1em;
 	margin-top: 8px;
 }
 
@@ -110,6 +113,18 @@
  */
 
 @media screen and (min-width: 36em) {
+    .header-text {
+        text-align: right;
+    }
+
+    .header-title {
+        font-size: 3em;
+    }
+
+    .header-subtitle {
+        font-size: 1.25em;
+    }
+
     .grid-small-fit > .grid-cell {
         flex: 1;
     }
