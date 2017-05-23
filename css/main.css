@@ -168,7 +168,7 @@
     }
 }
 
-@media screen and (min-width: 1232px) {
+@media screen and (min-width: 77em) {
 	.container {
 		margin: 16px auto;
 	}
