@@ -81,7 +81,12 @@
     display: block;
     min-height: 48px;
     padding-top: 16px;
+    text-align: center;
     text-decoration: none;
+}
+
+.colophon {
+    text-align: center;
 }
 
 /**
@@ -171,6 +176,10 @@
 }
 
 @media screen and (min-width: 60em) {
+    .social-links a {
+        text-align: left;
+    }
+
     .colophon {
         text-align: right;
     }
