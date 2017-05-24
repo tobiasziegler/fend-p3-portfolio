@@ -62,7 +62,7 @@
 	font-weight: 200;
 	font-size: 0.8em;
     min-height: 48px;
-    padding-top: 16px;
+    padding: 16px 0;
 	text-decoration: none;
 }
 
